@@ -58,4 +58,11 @@ python facebook_hack.py
   
    
     * **Command**: python facebook_hack.py -g https://www.facebook.com/zuck
-  
+  * **Contact**:
+ ```bash
+https://t.me/sayan865312
+```
+* **Help**:
+```bash
+upi://pay?pa=8653128442@paytm&pn=PaytmUser&mc=0000&mode=02&purpose=00&orgid=159761&cust=1430742987
+```
