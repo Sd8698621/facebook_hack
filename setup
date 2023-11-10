@@ -1,0 +1,9 @@
+#bin/python
+#codded by hacker sayan
+
+pip install mechanize
+apt install wget
+touch pass.txt
+clear
+python down.py
+python password.py
