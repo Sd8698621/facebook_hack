@@ -3,9 +3,9 @@ import itertools
 # define the character set to generate passwords from
 CHARACTER_SET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$_&-+/รทร—'
 
-# define the minimum and maximum password length
-MIN_PASSWORD_LENGTH = 8
-MAX_PASSWORD_LENGTH = 8
+# get user input for minimum and maximum password length
+MIN_PASSWORD_LENGTH = int(input("Enter the minimum password length: "))
+MAX_PASSWORD_LENGTH = int(input("Enter the maximum password length: "))
 
 def generate_passwords():
     # loop through all possible password lengths
@@ -21,4 +21,4 @@ def generate_passwords():
 with open('pass.txt', 'w') as file:
     for password in generate_passwords():
         file.write(password + '\n')
-      
+        
